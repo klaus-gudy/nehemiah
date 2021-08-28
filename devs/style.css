@@ -1,6 +1,10 @@
-.card{
+.skill{
   transition: transform .3s;
 }
-.card:hover{
+.skill:hover{
   transform: scale(1.03);
+}
+.image{
+  width: 100%;
+  float: left;
 }
