@@ -8,3 +8,24 @@
   width: 100%;
   float: left;
 }
+
+/* booking styles */
+.seat{
+  background-color: #C4C4C4;
+  height:35px;
+  width: 35px;
+  margin: 5px 15px;
+}
+.ro{
+  display: flex;
+}
+.occupied{
+  background-color: black;
+}
+.selected{
+  background-color: crimson;
+}
+.seat:not(.occupied):hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
