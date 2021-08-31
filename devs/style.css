@@ -1,5 +1,10 @@
+.card{
+  background-color: #34F6B;
+}
+
 .skill{
   transition: transform .3s;
+  background-color: #34F6B;
 }
 .skill:hover{
   transform: scale(1.03);
