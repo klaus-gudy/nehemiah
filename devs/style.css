@@ -1,10 +1,9 @@
-.card{
+/* .card{
   background-color: #34F6B;
-}
+} */
 
 .skill{
   transition: transform .3s;
-  background-color: #34F6B;
 }
 .skill:hover{
   transform: scale(1.03);
@@ -30,10 +29,11 @@
 .selected{
   background-color: crimson;
 }
-.seat:not(.occupied):hover{
+/* .seat:not(.occupied):hover{
   cursor: pointer;
   transform: scale(1.1);
-}
+  overflow: hidden;
+} */
 
 /* tables styles */
 .ta{
@@ -41,11 +41,54 @@
 }
 
 /* background items */
-/* .bck{
-  background-image: url(img/stetho.jpg);
+.bck{
+  background-image: url(img/gradient.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-} */
-
+  min-height: 89.7vh;
+}
+.bck2{
+  background-image: url(img/wtgrey.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.bck3{
+  background-image: url(img/corrol.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.cb:not(.table-striped){
+  background-color: #6c757d;
+}
+.card-body{
+  background-color: #6c757d;
+  /* opacity: 0.7; */
+  color: #000000;
+}
+.pw{
+  /* color: #f06f92; */
+  color: white;
+}
+.pb{
+  color: black;
+}
+.bg-light{
+  background-color: #6c757d;
+}
+/* additional colors */
+.fs{
+  font-size: 17px;
+  font-weight: 500;
+}
+.brd{
+  letter-spacing: 0.38em;
+  font-weight: bold;
+  font-stretch: expanded;
+}
 /* transparent card */
+.trans{
+  opacity: 0.5;
+}
