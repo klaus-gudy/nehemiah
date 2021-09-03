@@ -1,0 +1,24 @@
+/* head_style */
+.fs{
+  font-size: 17px;
+  font-weight: 500;
+}
+.brd{
+  letter-spacing: 0.38em;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+
+/* body_style */
+.bck{
+  background-image: url(img/gradient.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 89.7vh;
+}
+
+/* card_style */
+.hcard{
+  min-height: 259px;
+}

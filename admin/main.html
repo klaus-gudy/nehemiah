@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui-icon@2.3.3/icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>admin</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container-fluid my-2">
+      <a class="navbar-brand brd" href="#">ADMIN </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active fs" aria-current="page" href="main.html">DASHBOARD</a>
+          <a class="nav-link fs" href="request.html">REQUEST</a>
+          <a class="nav-link fs" href="doctor.html">DOCTOR</a>
+          <!-- <a class="nav-link fs" href="about.html">ABOUT US</a> -->
+          <!-- <a class="nav-link" href="#">logout</a> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="bck">
+    <div class="container-fluid py-4 px-4">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 py-1">
+          <div class="card shadow skill">
+            <div class="card-header">
+              <h4>Total Patient</h4>
+            </div>
+            <div class="card-body">
+              <div class="text-center">
+                <div class="mb-4">
+                  <i class="bx bx-map-pin text-primary display-4"></i>
+                </div>
+                <h3 class="mb-3">2,436</h3>
+                <button type="button" class="btn btn-secondary">view all</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6  py-1">
+          <div class="card shadow skill">
+            <div class="card-header">
+              <h4>Total Requests</h4>
+            </div>
+            <div class="card-body">
+              <div class="text-center">
+                <div class="mb-4">
+                  <i class="bx bx-map-pin text-primary display-4"></i>
+                </div>
+                <h3 class="mb-3">25</h3>
+                <button type="button" class="btn btn-secondary">view</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 py-1">
+          <div class="card shadow skill">
+            <div class="card-header">
+              <h4>Doctors</h4>
+            </div>
+            <div class="card-body">
+              <div class="text-center">
+                <div class="mb-4">
+                  <i class="bx bx-map-pin text-primary display-4"></i>
+                </div>
+                <h3 class="mb-3">1,456</h3>
+                <button type="button" class="btn btn-secondary">view all</button>
+              </div>
+              <!-- <p>lorem ipsum</p> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 py-1">
+          <div class="card shadow skill">
+            <div class="card-header">
+              <h4>Bookings</h4>
+            </div>
+            <div class="card-body">
+              <div class="text-center">
+                <div class="mb-4">
+                  <i class="bx bx-map-pin text-primary display-4"></i>
+                </div>
+                <h3 class="mb-3">20</h3>
+                <button type="button" class="btn btn-secondary">view</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 py-1">
+          <div class="card hcard mb-1">
+            <div class="card-body">
+              <h4 class="card-title mb-4">Social request</h4>
+              <div class="text-center">
+                <div class="avatar-sm mx-auto mb-4">
+                  <span class="avatar-title rounded-circle bg-primary bg-soft font-size-24">
+                    <i class="mdi mdi-facebook text-primary"></i>
+                  </span>
+                </div>
+                <p class="font-16 text-muted mb-2"></p>
+                <h5><a href="" class="text-dark">Patient request - <span class="text-muted font-16">25 undealt</span> </a></h5>
+                <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p>
+                <a href="javascript: void(0);" class="text-primary font-16">Learn more <i class="mdi mdi-chevron-right"></i></a>
+              </div>
+              <div class="row mt-4">
+                <div class="col-4">
+                  <div class="social-source text-center mt-3">
+                    <h5 class="font-size-15">request</h5>
+                    <p class="text-muted mb-0">125 sales</p>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="social-source text-center mt-3">
+                    <h5 class="font-size-15">bookings</h5>
+                    <p class="text-muted mb-0">112 sales</p>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="social-source text-center mt-3">
+                    <h5 class="font-size-15">request</h5>
+                    <p class="text-muted mb-0">104 sales</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 py-1">
+          <div class="card hcard mb-1">
+            <div class="card-body">
+              <h4 class="card-title mb-5">Activity</h4>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              <div class="text-center mt-4"><a href="javascript: void(0);" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ms-1"></i></a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 py-1">
+          <div class="card hcard mb-1">
+            <div class="card-body">
+              <h4 class="card-title mb-4">Top District Available Patient</h4>
+
+              <!-- <div class="text-center">
+                <p>kinondon</p>
+                <p>kinondon</p>
+              </div> -->
+
+              <div class="table-responsive mt-3">
+                <table class="table align-middle table-nowrap">
+                  <tbody>
+                    <tr>
+                      <td style="width: 30%">
+                        <p class="mb-0">kinondon</p>
+                      </td>
+                      <td style="width: 25%">
+                        <h5 class="mb-0">1,456</h5>
+                      </td>
+                      <td>
+                        <div class="progress bg-transparent progress-sm">
+                          <div class="progress-bar bg-primary rounded" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="mb-0">ilala</p>
+                      </td>
+                      <td>
+                        <h5 class="mb-0">1,123</h5>
+                      </td>
+                      <td>
+                        <div class="progress bg-transparent progress-sm">
+                          <div class="progress-bar bg-success rounded" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="mb-0">temeke</p>
+                      </td>
+                      <td>
+                        <h5 class="mb-0">1,026</h5>
+                      </td>
+                      <td>
+                        <div class="progress bg-transparent progress-sm">
+                          <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title mb-4">Latest Requests</h4>
+              <div class="table-responsive">
+                <table class="table align-middle table-nowrap mb-0">
+                  <thead class="table-light">
+                    <tr>
+                      <th style="width: 20px;">
+                        <div class="form-check font-size-16 align-middle">
+                          <input class="form-check-input" type="checkbox" id="transactionCheck01">
+                          <label class="form-check-label" for="transactionCheck01"></label>
+                        </div>
+                      </th>
+                      <th class="align-middle">Order ID</th>
+                      <th class="align-middle">Patient Name</th>
+                      <th class="align-middle">Date</th>
+                      <th class="align-middle">Doctor Booked</th>
+                      <th class="align-middle">Status</th>
+                      <th class="align-middle">Payment Method</th>
+                      <th class="align-middle">View Details</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="form-check font-size-16">
+                          <input class="form-check-input" type="checkbox" id="transactionCheck02">
+                          <label class="form-check-label" for="transactionCheck02"></label>
+                        </div>
+                      </td>
+                      <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2540</a> </td>
+                      <td>Neal Matthews</td>
+                      <td>
+                        07 Oct, 2019
+                      </td>
+                      <td>
+                        Dr.liam Frank
+                      </td>
+                      <td>
+                        <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
+                      </td>
+                      <td>
+                        <i class="fab fa-cc-mastercard me-1"></i> Mastercard
+                      </td>
+                      <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
+                          View Details
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <div class="form-check font-size-16">
+                          <input class="form-check-input" type="checkbox" id="transactionCheck03">
+                          <label class="form-check-label" for="transactionCheck03"></label>
+                        </div>
+                      </td>
+                      <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2541</a> </td>
+                      <td>Jamal Burnett</td>
+                      <td>
+                        07 Oct, 2019
+                      </td>
+                      <td>
+                        Dr.liam Frank
+                      </td>
+                      <td>
+                        <span class="badge badge-pill badge-soft-danger font-size-11">Chargeback</span>
+                      </td>
+                      <td>
+                        <i class="fab fa-cc-visa me-1"></i> Visa
+                      </td>
+                      <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
+                          View Details
+                        </button>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <div class="form-check font-size-16">
+                          <input class="form-check-input" type="checkbox" id="transactionCheck04">
+                          <label class="form-check-label" for="transactionCheck04"></label>
+                        </div>
+                      </td>
+                      <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2542</a> </td>
+                      <td>Juan Mitchell</td>
+                      <td>
+                        06 Oct, 2019
+                      </td>
+                      <td>
+                        Dr.liam Frank
+                      </td>
+                      <td>
+                        <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
+                      </td>
+                      <td>
+                        <i class="fab fa-cc-paypal me-1"></i> Paypal
+                      </td>
+                      <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
+                          View Details
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="form-check font-size-16">
+                          <input class="form-check-input" type="checkbox" id="transactionCheck05">
+                          <label class="form-check-label" for="transactionCheck05"></label>
+                        </div>
+                      </td>
+                      <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2543</a> </td>
+                      <td>Barry Dick</td>
+                      <td>
+                        05 Oct, 2019
+                      </td>
+                      <td>
+                        Dr.liam Frank
+                      </td>
+                      <td>
+                        <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
+                      </td>
+                      <td>
+                        <i class="fab fa-cc-mastercard me-1"></i> Mastercard
+                      </td>
+                      <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
+                          View Details
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="form-check font-size-16">
+                          <input class="form-check-input" type="checkbox" id="transactionCheck06">
+                          <label class="form-check-label" for="transactionCheck06"></label>
+                        </div>
+                      </td>
+                      <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2544</a> </td>
+                      <td>Ronald Taylor</td>
+                      <td>
+                        04 Oct, 2019
+                      </td>
+                      <td>
+                        Dr.liam Frank
+                      </td>
+                      <td>
+                        <span class="badge badge-pill badge-soft-warning font-size-11">Refund</span>
+                      </td>
+                      <td>
+                        <i class="fab fa-cc-visa me-1"></i> Visa
+                      </td>
+                      <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
+                          View Details
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="form-check font-size-16">
+                          <input class="form-check-input" type="checkbox" id="transactionCheck07">
+                          <label class="form-check-label" for="transactionCheck07"></label>
+                        </div>
+                      </td>
+                      <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2545</a> </td>
+                      <td>Jacob Hunter</td>
+                      <td>
+                        04 Oct, 2019
+                      </td>
+                      <td>
+                        Dr.liam Frank
+                      </td>
+                      <td>
+                        <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
+                      </td>
+                      <td>
+                        <i class="fab fa-cc-paypal me-1"></i> Paypal
+                      </td>
+                      <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
+                          View Details
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- end table-responsive -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <script src="main.js" charset="utf-8"></script>
+  <script src="https://kit.fontawesome.com/e147b7134a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
