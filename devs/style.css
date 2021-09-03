@@ -29,11 +29,10 @@
 .selected{
   background-color: crimson;
 }
-/* .seat:not(.occupied):hover{
+.seat:not(.occupied):hover{
   cursor: pointer;
   transform: scale(1.1);
-  overflow: hidden;
-} */
+}
 
 /* tables styles */
 .ta{
@@ -63,6 +62,11 @@
 .cb:not(.table-striped){
   background-color: #6c757d;
 }
+
+
+
+
+/* trial */
 .card-body{
   background-color: #6c757d;
   /* opacity: 0.7; */
