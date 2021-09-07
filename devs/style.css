@@ -48,16 +48,19 @@
   min-height: 89.7vh;
 }
 .bck2{
-  background-image: url(img/wtgrey.jpg);
+  background-image: url(img/gradyellow.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  min-height: 89.7vh;
 }
 .bck3{
-  background-image: url(img/corrol.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(img/stetho2.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  min-height: 100vh;
+  /* color: black; */
 }
 .cb:not(.table-striped){
   background-color: #6c757d;
@@ -96,3 +99,43 @@
 .trans{
   opacity: 0.5;
 }
+/* login and register */
+.coin{
+  padding: 60px 40px 50px 40px;
+  background-color: #6c757d;
+}
+.nav li a{
+  color: #aaa;
+}
+/* .bx{
+  margin-top: 15%;
+  transform: translateY(-15%);
+} */
+.bx p{
+  color: #aaa;
+}
+.bx{
+  position: absolute;
+  top: 45%;
+  /* left: 50%; */
+  transform: translateY(-45%);
+  text-align: center;
+}
+/* .txt{
+  position: absolute;
+width: 468px;
+height: 144px;
+left: 434px;
+top: 237px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 41px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+} */
