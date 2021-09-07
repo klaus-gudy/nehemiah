@@ -21,6 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link  fs" href="home2.html">HOME</a>
+          <a class="nav-link fs" href="index.html">GUEST</a>
           <a class="nav-link active fs" href="login.html">LOGIN</a>
           <a class="nav-link fs " href="register.html">REGISTER</a>
           <!-- <a class="nav-link" href="#">logout</a> -->
@@ -29,40 +30,25 @@
     </div>
   </nav>
 
-  <div class="bck2">
-
-    <!-- <div class="container">
+  <div class="bck2 bdbd">
+    <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-12 col-sm-6 col-md-3">
-          <form class="form-container" method="post">
-            <div class="form-group">
-              <input type="text" placeholder="Username">
+          <form class="form-container" action="index.html" method="post">
+            <h4 class="text-center bold">LOGIN FORM</h4>
+            <div class="form-group mb-4">
+              <input type="text" name="" class="form-control" placeholder="Username">
             </div>
-            <div class="form-group">
-              <input type="text" placeholder="Password">
+            <div class="form-group mb-4">
+              <input type="email" name="" class="form-control" placeholder="Email">
             </div>
-            <div class="form-group">
-              <input type="text" placeholder="Repeat Password">
+            <div class="form-group mb-4">
+              <input type="password" name="" class="form-control" placeholder="Password">
             </div>
+            <button type="submit" class="btn btn-primary mb-4">Login</button>
+            <p>Dont have an account? <a href="register.html">Register here</a> </p>
           </form>
         </div>
-      </div>
-    </div> -->
-
-
-    <div class="container px-5 py-5 bck2">
-      <div class="col-sm-9 col-md-6 coin rounded-3 mx-auto mt-5">
-        <form class="form-signin">
-          <h1 class="h3 text-center mb-3 font-weight-normal">login</h1>
-          <br>
-          <input type="text" id="inputEmail" class="form-control" placeholder="username">
-          <br>
-          <input type="password" id="inputEmail" class="form-control" placeholder="Password">
-          <br>
-          <input type="password" id="Password" class="form-control" placeholder="Enter Password" required="">
-          <br>
-          <button class="btn btn-primary" type="submit">Sign in</button>
-        </form>
       </div>
     </div>
   </div>

@@ -99,6 +99,8 @@
 .trans{
   opacity: 0.5;
 }
+
+
 /* login and register */
 .coin{
   padding: 60px 40px 50px 40px;
@@ -121,21 +123,17 @@
   transform: translateY(-45%);
   text-align: center;
 }
-/* .txt{
-  position: absolute;
-width: 468px;
-height: 144px;
-left: 434px;
-top: 237px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 41px;
-line-height: 48px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-} */
+form{
+  background-color: #fff;
+}
+.form-container{
+  border-radius: 10px;
+  padding: 30px ;
+  box-shadow: 0 0 10px 0;
+}
+.bdbd{
+  padding-top: 20vh;
+}
+.bdbd2{
+  padding-top: 10vh;
+}
